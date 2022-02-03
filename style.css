@@ -1,0 +1,98 @@
+* {
+}
+
+body {
+  background: white;
+}
+
+p {
+  color: black;
+}
+
+h1 {
+  font-family: Georgia, Times, serif;
+  font-size: 28.8px;
+  line-height: 37.4px;
+  font-weight: bold;
+  border-bottom: 1px solid darkgrey;
+}
+
+h2 {
+  border-bottom: 1px solid darkgrey;
+}
+
+.content {
+  background-color: #f8f9fa;
+}
+
+.innerContent {
+  background-color: #ffffff;
+  width: 80%;
+  margin: auto;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.infobox {
+  background: #eee;
+  border: 1px solid #aaa;
+  float: right;
+  margin: 0 0 1em 1em;
+  padding: 1em;
+  width: auto;
+}
+.infobox-title {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.5px;
+  text-align: center;
+  background-color: lightblue;
+}
+.infobox-image {
+  text-align: center;
+}
+
+.indice {
+  font-family: sans-serif;
+  font-size: 95%;
+  text-align: left;
+  padding: 1em 2em 0em 0em;
+  margin: 0.3em 0;
+  direction: ltr;
+  line-height: 1.6;
+  border: solid 1px #a2a9b1;
+  color: #202122;
+  background-color: #f8f9fa;
+
+  display: table;
+}
+
+#indiceText {
+  text-align: center;
+  margin: auto;
+}
+
+#search {
+  margin-left: 10%;
+  display: inline;
+}
+
+.header {
+  height: 50px;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.header img {
+  max-height: 100%;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.header input {
+  height: 32px;
+  width: 40%;
+  padding-left: 10px;
+}
